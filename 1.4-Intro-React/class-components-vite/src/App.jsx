@@ -71,7 +71,7 @@ Mostrar el siguiente mensaje cuando tengas menos de 12 años Eres un niño
         {this.state.counter >= 18
           ? < PersonComponent />
           : this.state.counter < 18 && this.state.counter >= 12
-            ? (< TeenagerComponent />
+            ? (< TeenagerComponent test = "recibiendo props"/>
             ) : (
               <>
                 < ChildComponent />
