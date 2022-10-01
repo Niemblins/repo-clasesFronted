@@ -3,7 +3,14 @@ import './Navbar.css';
 
 const NavbarComponent = () => {
     return (
-        <div>NavbarComponent</div>
+        <div className='Navbar'>
+            <div className='container-fluid'>
+                <div className='Navbar_brand'>
+                    <span className='font-weight-light'>Devf</span>
+                    <span className='font-weight-bold'>Online</span>
+                </div>
+            </div>
+        </div>
     )
 }
 
